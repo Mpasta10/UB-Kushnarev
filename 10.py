@@ -8,6 +8,6 @@ for i in range(len(a[0])):
 	a[i][0] = a[i][len(a[0]) - 1]
 	a[i][len(a[0]) - 1] = x
 file2 = open('Кушнарев Алексей Валерьевич_УБ-41_vivod.txt', 'r+')
-for i in range(3):
+for i in range(len(a)):
     file2.write(f'{a[i]}')
     file2.write('\n')
