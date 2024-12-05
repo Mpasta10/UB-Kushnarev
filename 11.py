@@ -99,7 +99,7 @@ butt2.grid(column = 1, row = 1)
 ##Третья вкладка
 #Меню
 def menuclick():
-    file = filedialog.askopenfile(filetypes = (('Textfiles','*.txt'), ('all files','*.*')))
+    file = filedialog.askopenfile(filetypes = (('Text files', '*.txt'), ('all files', '*.*')))
     for item in file.readlines():
         text.insert(END, item)
 menu = Menu(window)

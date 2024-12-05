@@ -1,6 +1,5 @@
 from tkinter import *
 import requests
-from pprint import pprint
 import json
 window = Tk()
 window.geometry('900x600')
